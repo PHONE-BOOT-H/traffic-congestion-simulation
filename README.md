@@ -8,10 +8,40 @@
 
 ## 실행 방법
 
-```bash
-pip install pygame
-python traffic_simulation.py
-```
+### 필요 사항
+- Python 3.7 이상
+- pygame 라이브러리
+
+### 설치 및 실행
+
+1. **Python 설치 확인**
+   ```bash
+   python --version
+   ```
+   Python이 설치되어 있지 않다면 [python.org](https://www.python.org/downloads/)에서 다운로드하세요.
+
+2. **프로젝트 다운로드**
+   ```bash
+   git clone https://github.com/PHONE-BOOT-H/traffic-congestion-simulation.git
+   cd traffic-congestion-simulation
+   ```
+   또는 ZIP 파일로 다운로드 후 압축 해제
+
+3. **필요한 라이브러리 설치**
+   ```bash
+   pip install pygame
+   ```
+   또는 requirements.txt 사용:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **시뮬레이션 실행**
+   ```bash
+   python traffic_simulation.py
+   ```
+   
+   **주의**: Jupyter Notebook이 아닌 **터미널(Windows: 명령 프롬프트 또는 PowerShell, Mac/Linux: 터미널)**에서 실행하세요.
 
 ## 시뮬레이션 작동 방식
 
